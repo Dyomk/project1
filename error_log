@@ -1,0 +1,93 @@
+[26-May-2024 10:44:31 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[26-May-2024 10:44:31 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[26-May-2024 10:44:31 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wp_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Blocks\Assets\Api->update_script_data_cache, set_transient, update_option
+[26-May-2024 11:08:32 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[26-May-2024 11:08:32 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[26-May-2024 11:08:32 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wp_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Blocks\Assets\Api->update_script_data_cache, set_transient, update_option
+[26-May-2024 11:13:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 74
+[26-May-2024 11:13:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 78
+[26-May-2024 11:13:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 74
+[26-May-2024 11:13:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 78
+[26-May-2024 11:13:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 74
+[26-May-2024 11:13:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 78
+[26-May-2024 11:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 74
+[26-May-2024 11:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 78
+[26-May-2024 11:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 74
+[26-May-2024 11:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 78
+[26-May-2024 11:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 74
+[26-May-2024 11:14:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/bravelv/public_html/uzd/wp-content/plugins/kingcomposer/shortcodes/kc_single_image.php on line 78
+[26-May-2024 11:15:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Job_Manager\is_wpjm_job_listing() in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php:97
+Stack trace:
+#0 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Job_Manager\Stats_Script->maybe_enqueue_stats_scripts()
+#1 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/bravelv/public_html/uzd/wp-includes/script-loader.php(2265): do_action()
+#4 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(457): wp_enqueue_scripts()
+#5 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(556): WP_Customize_Manager->wp_die()
+#6 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->setup_theme()
+#7 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/bravelv/public_html/uzd/wp-settings.php(625): do_action()
+#10 /home/bravelv/public_html/uzd/wp-config.php(96): require_once('/home/bravelv/p...')
+#11 /home/bravelv/public_html/uzd/wp-load.php(50): require_once('/home/bravelv/p...')
+#12 /home/bravelv/public_html/uzd/wp-blog-header.php(13): require_once('/home/bravelv/p...')
+#13 /home/bravelv/public_html/uzd/index.php(17): require('/home/bravelv/p...')
+#14 {main}
+  thrown in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php on line 97
+[26-May-2024 11:15:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Job_Manager\is_wpjm_job_listing() in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php:97
+Stack trace:
+#0 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Job_Manager\Stats_Script->maybe_enqueue_stats_scripts()
+#1 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/bravelv/public_html/uzd/wp-includes/script-loader.php(2265): do_action()
+#4 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(457): wp_enqueue_scripts()
+#5 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(556): WP_Customize_Manager->wp_die()
+#6 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->setup_theme()
+#7 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/bravelv/public_html/uzd/wp-settings.php(625): do_action()
+#10 /home/bravelv/public_html/uzd/wp-config.php(96): require_once('/home/bravelv/p...')
+#11 /home/bravelv/public_html/uzd/wp-load.php(50): require_once('/home/bravelv/p...')
+#12 /home/bravelv/public_html/uzd/wp-blog-header.php(13): require_once('/home/bravelv/p...')
+#13 /home/bravelv/public_html/uzd/index.php(17): require('/home/bravelv/p...')
+#14 {main}
+  thrown in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php on line 97
+[26-May-2024 11:15:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Job_Manager\is_wpjm_job_listing() in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php:97
+Stack trace:
+#0 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Job_Manager\Stats_Script->maybe_enqueue_stats_scripts()
+#1 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/bravelv/public_html/uzd/wp-includes/script-loader.php(2265): do_action()
+#4 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(457): wp_enqueue_scripts()
+#5 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(556): WP_Customize_Manager->wp_die()
+#6 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->setup_theme()
+#7 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/bravelv/public_html/uzd/wp-settings.php(625): do_action()
+#10 /home/bravelv/public_html/uzd/wp-config.php(96): require_once('/home/bravelv/p...')
+#11 /home/bravelv/public_html/uzd/wp-load.php(50): require_once('/home/bravelv/p...')
+#12 /home/bravelv/public_html/uzd/wp-blog-header.php(13): require_once('/home/bravelv/p...')
+#13 /home/bravelv/public_html/uzd/index.php(17): require('/home/bravelv/p...')
+#14 {main}
+  thrown in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php on line 97
+[26-May-2024 11:15:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Job_Manager\is_wpjm_job_listing() in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php:97
+Stack trace:
+#0 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Job_Manager\Stats_Script->maybe_enqueue_stats_scripts()
+#1 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/bravelv/public_html/uzd/wp-includes/script-loader.php(2265): do_action()
+#4 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(457): wp_enqueue_scripts()
+#5 /home/bravelv/public_html/uzd/wp-includes/class-wp-customize-manager.php(556): WP_Customize_Manager->wp_die()
+#6 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->setup_theme()
+#7 /home/bravelv/public_html/uzd/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/bravelv/public_html/uzd/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/bravelv/public_html/uzd/wp-settings.php(625): do_action()
+#10 /home/bravelv/public_html/uzd/wp-config.php(96): require_once('/home/bravelv/p...')
+#11 /home/bravelv/public_html/uzd/wp-load.php(50): require_once('/home/bravelv/p...')
+#12 /home/bravelv/public_html/uzd/wp-blog-header.php(13): require_once('/home/bravelv/p...')
+#13 /home/bravelv/public_html/uzd/index.php(17): require('/home/bravelv/p...')
+#14 {main}
+  thrown in /home/bravelv/public_html/uzd/wp-content/plugins/wp-job-manager/includes/class-stats-script.php on line 97
+[26-May-2024 11:22:19 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->is_enqueued, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[26-May-2024 11:22:19 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'woocommerce_hpos_legacy_data_cleanup_in_progress' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->maybe_reset_state, Automattic\WooCommerce\Internal\DataStores\Orders\LegacyDataCleanup->is_flag_set, get_option
+[26-May-2024 11:22:19 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wp_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Blocks\Assets\Api->update_script_data_cache, set_transient, update_option
